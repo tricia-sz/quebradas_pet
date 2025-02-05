@@ -1,7 +1,9 @@
+import { Hero } from "./_components/hero";
+
 export default function Home() {
   return (
     <section>
-      <h1>QuebradasPet</h1>
+      <Hero />
     </section>
   );
 }
